@@ -1,7 +1,12 @@
-*.o
-*.out
-a.out
-*.exe
-*.vscode/
-.DS_Store
+# Önce her şeyi yok say
+*
 
+# Klasörlerin içine bakmaya izin ver
+!*/
+
+# Sadece bunları takip et
+!*.c
+!*.h
+!Makefile
+!.gitignore
+!*.md
