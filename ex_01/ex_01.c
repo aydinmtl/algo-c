@@ -22,13 +22,13 @@ int main(int argc, char* argv[]) {
 	printf("entrer un nombre entier : \n");
     scanf("%d", &nombre);
 
-    for (int i=1; i<nombre; i++)
+    for (int i=1; i<=nombre; i++)
     {
         sum = i+sum;
 
     }
 
-    printf("5 toplami = %d\n", sum);
+    printf("%d toplami = %d\n", nombre, sum);
 
     return EXIT_SUCCESS;
 
